@@ -17,7 +17,7 @@ public class Main {
         panel.setBounds(0, 0, 600, 600);
 
         // Create title label
-        JLabel title = new JLabel("survey form");
+        JLabel title = new JLabel("Survey Form");
         title.setBounds(10, 10, 100, 20);
 
         // Create start button
