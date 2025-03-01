@@ -1,9 +1,16 @@
 import javax.swing.*;
 import packages.informationPage;
 
+import java.awt.*;
+
 public class Main {
 
     public static void main(String[] args) {
+
+        Font labelFont = new Font("Arial", Font.BOLD, 18);
+        UIManager.put("Label.font", labelFont);
+
+
         // Create and configure the main frame
         JFrame frame = new JFrame("فرم نظرسنجی");
         frame.setSize(600, 600);
@@ -19,6 +26,9 @@ public class Main {
         // Create title label
         JLabel title = new JLabel("فرم نظرسنجی");
         title.setBounds(10, 10, 100, 20);
+
+        Font buttonFont = new Font("Arial", Font.PLAIN, 15);
+        UIManager.put("Button.font", buttonFont);
 
         // Create start button
         JButton startButton = new JButton("شروع!");

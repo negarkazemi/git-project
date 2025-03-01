@@ -1,6 +1,7 @@
 package packages;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class informationPage {
 
@@ -11,6 +12,8 @@ public class informationPage {
         panel.setLayout(null);
 
         // Name Label and Text Field
+        Font textFielFont= new Font("Arial", Font.PLAIN, 14);
+        UIManager.put("TextField.font", textFielFont);
         JLabel nameLabel = new JLabel("اسم");
         nameLabel.setBounds(10, 10, 100, 20);
         JTextField nameField = new JTextField(15);
@@ -32,14 +35,19 @@ public class informationPage {
         JLabel levelLabel = new JLabel("سطح آشنایی با نرم افزارهای مشابه");
         levelLabel.setBounds(10, 130, 250, 20);
 
+        Font radioButtonFont = new Font("Arial", Font.BOLD, 15);
         JRadioButton level1 = new JRadioButton("مبتدی");
         level1.setBounds(10, 160, 100, 20);
+        level1.setFont(radioButtonFont);
         JRadioButton level2 = new JRadioButton("متوسط");
         level2.setBounds(100, 160, 100, 20);
+        level2.setFont(radioButtonFont);
         JRadioButton level3 = new JRadioButton("پیشرفته");
         level3.setBounds(190, 160, 100, 20);
+        level3.setFont(radioButtonFont);
         JRadioButton level4 = new JRadioButton("بدون آشنایی");
         level4.setBounds(280, 160, 150, 20);
+        level4.setFont(radioButtonFont);
 
         // Group the radio buttons
         ButtonGroup group = new ButtonGroup();
