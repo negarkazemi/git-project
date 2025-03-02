@@ -17,7 +17,7 @@ public class questionsPage {
         question1.setBounds(10, 10, 300, 20);
 
 
-        Font radioButtonFont = new Font("Poppins", Font.BOLD, 17);
+        Font radioButtonFont = new Font("Poppins", Font.BOLD, 10);
         JRadioButton radio1_1 = new JRadioButton("1");
         radio1_1.setBounds(10, 40, 100, 20);
         radio1_1.setFont(radioButtonFont);

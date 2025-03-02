@@ -14,7 +14,7 @@ public class informationPage {
 
         // Name Label and Text Field
 
-        Font textFielFont= new Font("Arial", Font.PLAIN, 14);
+        Font textFielFont= new Font("Arial", Font.PLAIN, 12);
         UIManager.put("TextField.font", textFielFont);
         JLabel nameLabel = new JLabel("Name");
         nameLabel.setBounds(10, 10, 100, 20);
@@ -37,7 +37,7 @@ public class informationPage {
         JLabel levelLabel = new JLabel("Familiarity level with similar software");
         levelLabel.setBounds(10, 130, 250, 20);
 
-        Font radioButtonFont = new Font("Arial", Font.BOLD, 15);
+        Font radioButtonFont = new Font("Arial", Font.PLAIN, 15);
         JRadioButton level1 = new JRadioButton("Beginner");
         level1.setBounds(10, 160, 100, 20);
         level1.setFont(radioButtonFont);
