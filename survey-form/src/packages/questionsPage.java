@@ -8,7 +8,7 @@ public class questionsPage {
         // Create and configure the panel
         JPanel panel = new JPanel();
         panel.setBounds(0, 0, 600, 600);
-        panel.setLayout(null);
+        panel.setLayout(new BoxLayout(mainPanel, BoxLayout.PAGE_AXIS));
 
         // Question 1
         JLabel question1 = new JLabel("How attractive is the software's user interface to you?");
