@@ -1,6 +1,7 @@
 package packages;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class questionsPage {
 
@@ -8,7 +9,8 @@ public class questionsPage {
         // Create and configure the panel
         JPanel panel = new JPanel();
         panel.setBounds(0, 0, 600, 600);
-        panel.setLayout(null);
+        panel.setLayout(new BoxLayout(panel, BoxLayout.PAGE_AXIS));
+        panel.setBackground(Color.YELLOW);
 
         // Question 1
         JLabel question1 = new JLabel("How attractive is the software's user interface to you?");
@@ -144,6 +146,7 @@ public class questionsPage {
         panel.add(radio4_5);
 
         panel.add(nextButton);
+        panel.add(Box.createRigidArea(new Dimension(10, 10)));
 
         // Add panel to the frame
         frame.add(panel);
