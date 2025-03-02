@@ -16,16 +16,23 @@ public class questionsPage {
         JLabel question1 = new JLabel("How attractive is the software's user interface to you?");
         question1.setBounds(10, 10, 300, 20);
 
+
+        Font radioButtonFont = new Font("Poppins", Font.BOLD, 17);
         JRadioButton radio1_1 = new JRadioButton("1");
         radio1_1.setBounds(10, 40, 100, 20);
+        radio1_1.setFont(radioButtonFont);
         JRadioButton radio1_2 = new JRadioButton("2");
         radio1_2.setBounds(80, 40, 100, 20);
+        radio1_2.setFont(radioButtonFont);
         JRadioButton radio1_3 = new JRadioButton("3");
         radio1_3.setBounds(150, 40, 100, 20);
+        radio1_3.setFont(radioButtonFont);
         JRadioButton radio1_4 = new JRadioButton("4");
         radio1_4.setBounds(220, 40, 100, 20);
+        radio1_4.setFont(radioButtonFont);
         JRadioButton radio1_5 = new JRadioButton("5");
         radio1_5.setBounds(290, 40, 100, 20);
+        radio1_5.setFont(radioButtonFont);
 
         ButtonGroup group1 = new ButtonGroup();
         group1.add(radio1_1);
@@ -41,14 +48,19 @@ public class questionsPage {
 
         JRadioButton radio2_1 = new JRadioButton("1");
         radio2_1.setBounds(10, 120, 100, 20);
+        radio2_1.setFont(radioButtonFont);
         JRadioButton radio2_2 = new JRadioButton("2");
         radio2_2.setBounds(80, 120, 100, 20);
+        radio2_2.setFont(radioButtonFont);
         JRadioButton radio2_3 = new JRadioButton("3");
         radio2_3.setBounds(150, 120, 100, 20);
+        radio2_3.setFont(radioButtonFont);
         JRadioButton radio2_4 = new JRadioButton("4");
         radio2_4.setBounds(220, 120, 100, 20);
+        radio2_4.setFont(radioButtonFont);
         JRadioButton radio2_5 = new JRadioButton("5");
         radio2_5.setBounds(290, 120, 100, 20);
+        radio2_5.setFont(radioButtonFont);
 
         ButtonGroup group2 = new ButtonGroup();
         group2.add(radio2_1);
@@ -63,14 +75,19 @@ public class questionsPage {
 
         JRadioButton radio3_1 = new JRadioButton("1");
         radio3_1.setBounds(10, 200, 100, 20);
+        radio3_1.setFont(radioButtonFont);
         JRadioButton radio3_2 = new JRadioButton("2");
         radio3_2.setBounds(80, 200, 100, 20);
+        radio3_2.setFont(radioButtonFont);
         JRadioButton radio3_3 = new JRadioButton("3");
         radio3_3.setBounds(150, 200, 100, 20);
+        radio3_3.setFont(radioButtonFont);
         JRadioButton radio3_4 = new JRadioButton("4");
         radio3_4.setBounds(220, 200, 100, 20);
+        radio3_4.setFont(radioButtonFont);
         JRadioButton radio3_5 = new JRadioButton("5");
         radio3_5.setBounds(290, 200, 100, 20);
+        radio3_5.setFont(radioButtonFont);
 
         ButtonGroup group3 = new ButtonGroup();
         group3.add(radio3_1);
@@ -85,14 +102,19 @@ public class questionsPage {
 
         JRadioButton radio4_1 = new JRadioButton("1");
         radio4_1.setBounds(10, 280, 100, 20);
+        radio4_1.setFont(radioButtonFont);
         JRadioButton radio4_2 = new JRadioButton("2");
         radio4_2.setBounds(80, 280, 100, 20);
+        radio4_2.setFont(radioButtonFont);
         JRadioButton radio4_3 = new JRadioButton("3");
         radio4_3.setBounds(150, 280, 100, 20);
+        radio4_3.setFont(radioButtonFont);
         JRadioButton radio4_4 = new JRadioButton("4");
         radio4_4.setBounds(220, 280, 100, 20);
+        radio4_4.setFont(radioButtonFont);
         JRadioButton radio4_5 = new JRadioButton("5");
         radio4_5.setBounds(290, 280, 100, 20);
+        radio4_5.setFont(radioButtonFont);
 
         ButtonGroup group4 = new ButtonGroup();
         group4.add(radio4_1);

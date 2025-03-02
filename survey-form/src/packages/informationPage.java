@@ -13,6 +13,9 @@ public class informationPage {
         panel.setBackground(Color.YELLOW);
 
         // Name Label and Text Field
+
+        Font textFielFont= new Font("Arial", Font.PLAIN, 14);
+        UIManager.put("TextField.font", textFielFont);
         JLabel nameLabel = new JLabel("Name");
         nameLabel.setBounds(10, 10, 100, 20);
         JTextField nameField = new JTextField(15);
@@ -34,14 +37,20 @@ public class informationPage {
         JLabel levelLabel = new JLabel("Familiarity level with similar software");
         levelLabel.setBounds(10, 130, 250, 20);
 
+        Font radioButtonFont = new Font("Arial", Font.BOLD, 15);
         JRadioButton level1 = new JRadioButton("Beginner");
         level1.setBounds(10, 160, 100, 20);
+        level1.setFont(radioButtonFont);
         JRadioButton level2 = new JRadioButton("Intermediate");
         level2.setBounds(100, 160, 100, 20);
+        level2.setFont(radioButtonFont);
         JRadioButton level3 = new JRadioButton("Advanced");
         level3.setBounds(190, 160, 100, 20);
+        level3.setFont(radioButtonFont);
         JRadioButton level4 = new JRadioButton("No Familiarity");
         level4.setBounds(280, 160, 150, 20);
+        level4.setFont(radioButtonFont);
+   
 
         // Group the radio buttons
         ButtonGroup group = new ButtonGroup();

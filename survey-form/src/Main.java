@@ -6,6 +6,11 @@ import java.awt.*;
 public class Main {
 
     public static void main(String[] args) {
+
+        Font labelFont = new Font("Arial", Font.BOLD, 18);
+        UIManager.put("Label.font", labelFont);
+
+
         // Create and configure the main frame
         JFrame frame = new JFrame("SURVEY FORM");
         frame.setSize(600, 600);
@@ -23,6 +28,9 @@ public class Main {
         JLabel title = new JLabel("Survey Form");
         title.setBounds(10, 10, 100, 20);
         title.setHorizontalAlignment(JLabel.CENTER);
+
+        Font buttonFont = new Font("Arial", Font.PLAIN, 15);
+        UIManager.put("Button.font", buttonFont);
 
         // Create start button
         JButton startButton = new JButton("Start");
