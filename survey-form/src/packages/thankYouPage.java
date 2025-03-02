@@ -8,7 +8,8 @@ public class thankYouPage {
 
         // Create and configure the panel
         JPanel panel = new JPanel();
-        panel.setLayout(null);
+        panel.setLayout(new BorderLayout);
+
         panel.setBounds(0, 0, 600, 600);
 
         // Create thank you label
