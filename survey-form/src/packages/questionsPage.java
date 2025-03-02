@@ -146,6 +146,7 @@ public class questionsPage {
         panel.add(radio4_5);
 
         panel.add(nextButton);
+        panel.add(Box.createRigidArea(new Dimension(10, 10)));
 
         // Add panel to the frame
         frame.add(panel);

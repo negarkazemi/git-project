@@ -79,6 +79,7 @@ public class informationPage {
         panel.add(level3);
         panel.add(level4);
         panel.add(nextButton);
+        panel.add(Box.createRigidArea(new Dimension(10, 10)));
 
         // Add panel to the frame
         frame.add(panel);
